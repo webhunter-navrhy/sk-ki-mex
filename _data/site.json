@@ -1,0 +1,51 @@
+{
+  "slug": "sk-ki-mex",
+  "nazev": "KI-MEX s.r.o.",
+  "url": "https://webhunter-navrhy.github.io/sk-ki-mex/",
+  "base": "/sk-ki-mex/",
+  "lang": "sk",
+  "popis": "Medzinárodná a vnútroštátna nákladná cestná doprava zo Spišskej Novej Vsi. Ťahače Volvo a Renault EURO 6, preprava v rámci EÚ so sledovaním GPS.",
+  "navrh": true,
+  "domena": "",
+  "og_image": "hero.jpg",
+  "logo": "logo.png",
+  "theme_color": "#231F20",
+  "typ": "LocalBusiness",
+  "ico": "46185992",
+  "kontakt": {
+    "email": "kurta@snv.sk",
+    "telefon": "+421 903 624 251",
+    "adresa": {
+      "ulice": "Markušovská cesta 4",
+      "psc": "052 01",
+      "mesto": "Spišská Nová Ves",
+      "zeme": "SK"
+    }
+  },
+  "oteviraci_doba": [],
+  "sameas": [],
+  "cenove_rozpeti": "",
+  "formular": {
+    "endpoint": "",
+    "demo": true,
+    "predmet": "Dopyt na prepravu z webu"
+  },
+  "nav": [
+    {
+      "text": "O nás",
+      "href": "#o-nas"
+    },
+    {
+      "text": "Vozový park",
+      "href": "#vozovy-park"
+    },
+    {
+      "text": "Kontakt",
+      "href": "#kontakt"
+    },
+    {
+      "text": "Dopyt na prepravu",
+      "href": "#dopyt"
+    }
+  ]
+}

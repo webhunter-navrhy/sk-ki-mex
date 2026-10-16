@@ -1,0 +1,17 @@
+[
+ {
+  "id": "medzinarodna",
+  "nazev": "Medzinárodná preprava",
+  "popis": "Vozíme tovar v rámci krajín EÚ, hlavne do Nemecka, Francúzska, Belgicka, Švajčiarska, Luxemburska a Holandska."
+ },
+ {
+  "id": "vnutrostatna",
+  "nazev": "Vnútroštátna preprava",
+  "popis": "Nákladná cestná doprava aj v rámci Slovenska, so zázemím v Spišskej Novej Vsi."
+ },
+ {
+  "id": "napoje",
+  "nazev": "Preprava nápojov",
+  "popis": "Naše plachtové návesy majú certifikát „Getränke“ na prepravu nápojov."
+ }
+]
