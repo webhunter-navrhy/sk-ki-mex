@@ -1,3 +1,83 @@
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/barlow-400-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/barlow-400-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/barlow-500-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(../fonts/barlow-500-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/barlow-600-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/barlow-600-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/barlow-condensed-600-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/barlow-condensed-600-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/barlow-condensed-700-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/barlow-condensed-700-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
 /* Neutrální základ. ŽÁDNÝ design: barvy, fonty a layout vymysli pro konkrétního klienta. */
 *, *::before, *::after { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; scroll-behavior: smooth; overflow-x: clip; }
@@ -21,8 +101,8 @@ ul[role="list"], ol[role="list"] { list-style: none; margin: 0; padding: 0; }
   --line: #dcdcde;
 
   /* písmo: self-host do static/fonts + @font-face s font-display: swap; vždy otestuj háčky ěščřžýáíéůú */
-  --font-body: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-  --font-head: var(--font-body);
+  --font-body: 'Barlow', system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-head: 'Barlow Condensed', 'Barlow', system-ui, sans-serif;
 
   /* typografická škála (320 až 1440 px) */
   --step--1: clamp(0.83rem, 0.80rem + 0.14vw, 0.92rem);
@@ -64,85 +144,114 @@ a { color: inherit; }
 
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; } }
 
-/* KI-MEX: logo vlevo, červená a šedá z loga */
-.hlavicka { position: sticky; top: 0; z-index: 50; background: #fff; border-bottom: 1px solid var(--line); }
+/* KI-MEX: koncept "nákladný list" – trasa ze Spišskej Novej Vsi, červená a čierna z loga */
+:root { --paper: #f6f4f1; --ink: #231F20; --accent: #ED1C24; --accent-text: #fff; }
+body { font-size: 1.0625rem; }
+h1, h2, h3 { font-weight: 700; letter-spacing: .005em; }
+h1 { font-size: clamp(2.6rem, 1.6rem + 4.4vw, 5rem); line-height: 1; text-transform: uppercase; }
+h2 { font-size: clamp(2rem, 1.5rem + 2vw, 3.1rem); text-transform: uppercase; line-height: 1.02; }
+h3 { font-size: 1.5rem; text-transform: uppercase; line-height: 1.1; }
+.hlavicka { position: sticky; top: 0; z-index: 50; background: #fff; border-bottom: 3px solid var(--ink); }
 .hlavicka .wrap { display: flex; align-items: center; justify-content: space-between; gap: var(--space-2); min-height: 4.5rem; }
 .hlavicka .logo { display: flex; align-items: center; min-height: 44px; flex: none; }
 .hlavicka .logo img { height: 2.8rem; width: auto; }
-.hlavicka nav { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 0.25rem 1rem; font-size: var(--step--1); font-weight: 500; }
+.hlavicka nav { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: .25rem 1.4rem; font-family: var(--font-head); font-weight: 600; font-size: 1.1rem; text-transform: uppercase; letter-spacing: .04em; }
 .hlavicka nav a { text-decoration: none; }
 .hlavicka nav a:hover { color: var(--accent); }
-.hlavicka nav a:last-child { background: var(--accent); color: #fff; padding-inline: 1rem; border-radius: 2rem; }
+.hlavicka nav a:last-child { background: var(--accent); color: #fff; padding-inline: 1rem; }
 .hlavicka nav a:last-child:hover { color: #fff; filter: brightness(1.1); }
 @media (max-width: 52rem) { .hlavicka nav a:not(:last-child) { display: none; } }
 
-.tlacitko, button[type="submit"] { border-radius: 2rem; font-weight: 600; text-decoration: none; transition: filter .15s; }
-.tlacitko:hover, button[type="submit"]:hover { filter: brightness(1.1); }
-.tlacitko.druhe { background: transparent; color: var(--text); border: 2px solid var(--dark); }
-.tlacitko.druhe:hover { background: var(--dark); color: #fff; filter: none; }
+.tlacitko, button[type="submit"] { border-radius: 0; font-family: var(--font-head); font-weight: 700; font-size: 1.15rem; text-transform: uppercase; letter-spacing: .05em; text-decoration: none; padding: .6em 1.5em; transition: filter .15s; }
+.tlacitko:hover, button[type="submit"]:hover { filter: brightness(1.12); }
+.tlacitko.druhe { background: transparent; color: var(--ink); border: 2px solid var(--ink); }
+.tlacitko.druhe:hover { background: var(--ink); color: #fff; filter: none; }
 
-.hero { position: relative; background: #f3f3f4; overflow: hidden; }
-.hero-foto { max-width: 1000px; }
-.hero-foto img { width: 100%; height: clamp(22rem, 48vw, 36rem); object-fit: cover; object-position: 50% 50%; }
-.hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(270deg, rgba(255,255,255,.97) 0%, rgba(255,255,255,.92) 40%, rgba(255,255,255,0) 72%); }
-@media (max-width: 52rem) { .hero::after { background: rgba(255,255,255,.88); } }
-.hero-text { position: absolute; inset: 0; z-index: 2; display: flex; flex-direction: column; justify-content: center; gap: var(--space-2); margin-inline: auto; }
-.hero-text > * { max-width: 34rem; margin-left: auto; width: 100%; }
-.hero h1 { color: var(--dark); }
-.ocko { font-size: var(--step--1); letter-spacing: .12em; text-transform: uppercase; color: var(--accent); font-weight: 700; }
-.uvod { font-size: var(--step-1); color: var(--muted); }
-.cta { display: flex; flex-wrap: wrap; gap: var(--space-2); margin-top: var(--space-1); }
-
-.fakty { background: var(--dark); color: #fff; }
-.fakty-mriezka { display: grid; grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr)); gap: var(--space-3); padding-block: var(--space-4); }
-.fakty strong { display: block; font-size: var(--step-3); color: #ff6a70; line-height: 1.1; }
-.fakty span { font-size: var(--step--1); opacity: .9; }
-
-.sekce h2 { margin-bottom: var(--space-2); color: var(--dark); }
-.podnadpis { color: var(--muted); max-width: 44rem; margin-bottom: var(--space-4); }
-.karty { display: grid; grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr)); gap: var(--space-3); }
-.karta { padding: var(--space-3); background: var(--soft); border-radius: .75rem; border-top: 4px solid var(--accent); display: grid; gap: .6rem; align-content: start; scroll-margin-top: 6rem; }
-.karta .cislo { font-weight: 700; color: var(--accent); font-size: var(--step--1); }
-.karta p { color: var(--muted); }
-
-.tmava { background: var(--dark); color: #f4efea; }
-.tmava h2 { color: #fff; }
-.tmava a { color: #ff8a90; }
-.svetla { background: var(--soft); }
-.dva { display: grid; grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr)); gap: var(--space-5); align-items: start; }
-.dva p + p { margin-top: var(--space-2); }
-.odrazky { display: grid; gap: .8rem; }
-.odrazky li { padding: .9rem 1.1rem; border-left: 4px solid var(--accent); background: rgba(255,255,255,.07); }
-
-.kroky { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: var(--space-3); counter-reset: k; }
-.kroky li { counter-increment: k; padding-top: var(--space-3); border-top: 2px solid var(--line); display: grid; gap: .5rem; align-content: start; }
-.kroky li::before { content: counter(k); display: grid; place-items: center; width: 2.4rem; height: 2.4rem; border-radius: 50%; background: var(--accent); color: #fff; font-weight: 700; }
-.kroky p { color: var(--muted); }
-
-.svetla h3 { margin-bottom: var(--space-2); }
-.znacky { display: flex; flex-wrap: wrap; gap: .5rem; }
-.znacky li { padding: .35rem .8rem; background: #fff; border: 1px solid var(--line); border-radius: 2rem; font-size: var(--step--1); }
-
-.pobocky { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: var(--space-3); }
-.pobocka { padding: var(--space-3); border: 1px solid var(--line); border-radius: .75rem; display: grid; gap: .5rem; align-content: start; }
-.pobocka a { display: inline-flex; align-items: center; min-height: 44px; color: var(--accent); }
-
-.tmava .formular input, .tmava .formular textarea { background: #fff; color: var(--text); border-color: #fff; border-radius: .4rem; }
-.tmava .formular label { color: #f4efea; }
-.tmava button[type="submit"] { justify-self: start; }
-.paticka { background: #231F20; color: #cfc8c1; padding-block: var(--space-4); font-size: var(--step--1); }
-.paticka a { color: #fff; }
+.hero { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr); background: #fff; }
+.hero-text { grid-column: 1; grid-row: 1; display: flex; flex-direction: column; justify-content: center; gap: var(--space-3); padding: clamp(2rem, 6vw, 5rem) clamp(1.2rem, 4vw, 4rem) clamp(2rem, 6vw, 5rem) max(var(--gutter), calc((100vw - var(--wrap)) / 2)); border-left: 0; }
+.hero-foto { grid-column: 2; grid-row: 1; }
+.hero-foto img { width: 100%; height: 100%; min-height: 28rem; object-fit: cover; object-position: 35% 50%; }
+.ocko { font-family: var(--font-head); font-weight: 600; font-size: 1.15rem; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); }
+.uvod { font-size: 1.2rem; color: var(--muted); max-width: 30rem; }
+.cta { display: flex; flex-wrap: wrap; gap: var(--space-2); }
 @media (max-width: 52rem) {
-  .hero-foto { max-width: none; }
-  .hero::after { display: none; }
-  .hero-foto img { height: 14rem; }
-  .hero-text { position: static; padding-block: var(--space-4); background: #fff; }
-  .hero-text > * { margin-left: 0; }
+  .hero { grid-template-columns: 1fr; }
+  .hero-foto { grid-column: 1; grid-row: 1; }
+  .hero-foto img { min-height: 0; height: 17rem; object-position: 30% 50%; }
+  .hero-text { grid-row: 2; padding: var(--space-4) var(--gutter); }
 }
 
-.galeria { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: var(--space-2); margin-top: var(--space-4); }
-.galeria img { width: 100%; height: 14rem; object-fit: cover; border-radius: .5rem; }
-.tmava .dva.vozidla-text { margin-top: var(--space-2); }
-.tmava .galeria { grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr)); align-items: start; }
+/* signature: trasa */
+.trasa { background: var(--ink); color: #fff; padding-block: 1.6rem 2rem; }
+.trasa-nadpis { font-family: var(--font-head); text-transform: uppercase; letter-spacing: .14em; font-size: 1rem; color: #ff8d92; margin-bottom: 1rem; }
+.trasa-zastavky { display: flex; flex-wrap: wrap; gap: .6rem 0; list-style: none; margin: 0; padding: 0; }
+.trasa-zastavky li { position: relative; flex: 1 1 8rem; padding-top: 1.6rem; display: grid; gap: .1rem; align-content: start; }
+.trasa-zastavky li::before { content: ""; position: absolute; top: .45rem; left: .45rem; right: -.45rem; height: 0; border-top: 2px dashed #8b8586; transform-origin: left; transform: scaleX(0); transition: transform .9s ease-out; }
+.trasa-zastavky li:last-child::before { display: none; }
+.trasa.videt li::before { transform: scaleX(1); }
+.trasa-zastavky .bod { position: absolute; top: 0; left: 0; width: .95rem; height: .95rem; border-radius: 50%; border: 3px solid var(--accent); background: var(--ink); z-index: 1; }
+.trasa-zastavky .start { flex-basis: 12rem; }
+.trasa-zastavky .start .bod { background: var(--accent); }
+.trasa-zastavky strong { font-family: var(--font-head); font-size: 1.35rem; text-transform: uppercase; letter-spacing: .03em; font-weight: 600; }
+.trasa-zastavky small { color: #bdb6b7; }
+@media (max-width: 40rem) {
+  .trasa-zastavky { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .2rem 1rem; }
+  .trasa-zastavky li { padding: .25rem 0 .25rem 1.5rem; flex: none; }
+  .trasa-zastavky li::before { display: none; }
+  .trasa-zastavky .bod { top: .55rem; }
+  .trasa-zastavky strong { font-size: 1.15rem; }
+  .trasa-zastavky small { display: none; }
+}
+
+.sekce { padding-block: clamp(3.5rem, 8vw, 6.5rem); }
+.sekce h2 { margin-bottom: var(--space-3); color: var(--ink); }
+.podnadpis { color: var(--muted); max-width: 40rem; margin-bottom: var(--space-4); }
+.svetla { background: var(--paper); }
+.dva { display: grid; grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr)); gap: var(--space-5); align-items: start; }
+.dva p + p { margin-top: var(--space-2); }
+
+/* služby jako řádky nákladního listu */
+.radky { border-top: 3px solid var(--ink); }
+.radek { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr); gap: var(--space-3); padding: 1.6rem 0; border-bottom: 1px solid var(--line); scroll-margin-top: 6rem; }
+.radek p { color: var(--muted); font-size: 1.1rem; }
+@media (max-width: 48rem) { .radek { grid-template-columns: 1fr; gap: .5rem; } }
+
+.rozsah { font-family: var(--font-head); font-size: 1.5rem; line-height: 1.25; font-weight: 600; border-left: 5px solid var(--accent); padding-left: 1rem; color: var(--ink); }
+.znacky { display: flex; flex-wrap: wrap; gap: .5rem; }
+.znacky li { padding: .35rem .9rem; background: #fff; border: 1px solid var(--ink); font-family: var(--font-head); font-size: 1.1rem; text-transform: uppercase; letter-spacing: .05em; }
+.svetla h3 { margin-bottom: var(--space-2); }
+
+.odrazky { display: grid; gap: .8rem; }
+.odrazky li { padding: .9rem 1.1rem; border-left: 5px solid var(--accent); background: var(--paper); }
+.vozidla-text { margin-bottom: var(--space-4); }
+.galeria { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .6rem; }
 .galeria li { margin: 0; padding: 0; min-width: 0; }
 .galeria picture, .galeria img { display: block; width: 100%; }
+.galeria img { aspect-ratio: 4 / 3; object-fit: cover; }
+@media (max-width: 52rem) { .galeria { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+.praca { background: var(--accent); color: #fff; padding-block: clamp(2.5rem, 6vw, 4.5rem); }
+.praca h2 { color: #fff; margin-bottom: var(--space-2); }
+.praca .dva { align-items: center; gap: var(--space-3); }
+.praca .tlacitko { background: var(--ink); color: #fff; justify-self: start; }
+
+.firma-udaje { line-height: 1.7; margin-bottom: var(--space-3); }
+.osoby { margin: 0; border-top: 3px solid var(--ink); }
+.osoby > div { padding: 1rem 0; border-bottom: 1px solid var(--line); display: grid; gap: .2rem; }
+.osoby dt { font-family: var(--font-head); font-size: 1.3rem; text-transform: uppercase; font-weight: 600; line-height: 1.15; }
+.osoby dt span { font-family: var(--font-body); text-transform: none; font-size: .95rem; font-weight: 400; color: var(--muted); }
+.osoby dd { margin: 0; }
+.osoby a, .firma-udaje a { color: var(--ink); text-decoration-color: var(--accent); text-underline-offset: 3px; display: inline-flex; align-items: center; min-height: 44px; }
+.dopyt { background: var(--paper); padding: clamp(1.4rem, 3vw, 2.4rem); border-top: 5px solid var(--accent); }
+.dopyt p { margin-bottom: var(--space-3); color: var(--muted); }
+.formular input, .formular textarea { background: #fff; border: 1px solid var(--ink); border-radius: 0; }
+.formular label { font-size: .95rem; font-weight: 500; }
+.formular button[type="submit"] { justify-self: start; }
+.paticka { background: var(--ink); color: #cfc8c1; padding-block: var(--space-4); font-size: .95rem; }
+.paticka .wrap { display: flex; flex-wrap: wrap; gap: .5rem 2rem; }
+.paticka a { color: #fff; }
+
+@media (prefers-reduced-motion: reduce) { .trasa-zastavky li::before { transform: scaleX(1); transition: none; } }
+
+#o-nas.sekce { padding-block: clamp(2.5rem, 5vw, 4rem); }
+#o-nas .dva > div:last-child { padding-top: .4rem; }

@@ -19,3 +19,11 @@
     });
   });
 })();
+
+// Trasa: čiara sa dokreslí pri zobrazení
+(function () {
+  var t = document.querySelector('.trasa');
+  if (!t) return;
+  if (!('IntersectionObserver' in window)) { t.classList.add('videt'); return; }
+  new IntersectionObserver(function (e, o) { if (e[0].isIntersecting) { t.classList.add('videt'); o.disconnect(); } }, { threshold: 0.4 }).observe(t);
+})();

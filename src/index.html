@@ -3,9 +3,9 @@
 {% set cesta = '' %}
 {% block obsah %}
 <section class="hero">
-  <div class="hero-foto">{{ img('hero.jpg', 'Čierny ťahač Volvo s plachtovým návesom spoločnosti KI-MEX', sizes='100vw') }}</div>
-  <div class="wrap hero-text">
-    <p class="ocko">Spišská Nová Ves · EÚ</p>
+  <div class="hero-foto">{{ img('hero.jpg', 'Čierny ťahač Volvo s plachtovým návesom spoločnosti KI-MEX', sizes='(min-width: 64rem) 60vw, 100vw') }}</div>
+  <div class="hero-text">
+    <p class="ocko">Nákladná doprava · Spišská Nová Ves</p>
     <h1>Váš náklad v EÚ doručíme spoľahlivo.</h1>
     <p class="uvod">Medzinárodná a vnútroštátna nákladná cestná doprava s vlastnými ťahačmi Volvo a Renault, so sledovaním GPS.</p>
     <div class="cta">
@@ -15,9 +15,18 @@
   </div>
 </section>
 
-<section class="fakty" aria-label="KI-MEX v kocke">
-  <div class="wrap fakty-mriezka">
-    {% for f in data.kimex.fakty %}<div><strong>{{ f.cislo }}</strong><span>{{ f.text }}</span></div>{% endfor %}
+<section class="trasa" aria-label="Kam vozíme">
+  <div class="wrap">
+    <p class="trasa-nadpis">Trasa</p>
+    <ol role="list" class="trasa-zastavky">
+      <li class="start"><span class="bod"></span><strong>Spišská Nová Ves</strong><small>sídlo</small></li>
+      <li><span class="bod"></span><strong>Nemecko</strong></li>
+      <li><span class="bod"></span><strong>Francúzsko</strong></li>
+      <li><span class="bod"></span><strong>Belgicko</strong></li>
+      <li><span class="bod"></span><strong>Švajčiarsko</strong></li>
+      <li><span class="bod"></span><strong>Luxembursko</strong></li>
+      <li><span class="bod"></span><strong>Holandsko</strong></li>
+    </ol>
   </div>
 </section>
 
@@ -25,8 +34,8 @@
   <div class="wrap">
     <h2>Čo pre Vás prevážame</h2>
     <p class="podnadpis">Hlavnou činnosťou KI-MEX je medzinárodná a vnútroštátna nákladná cestná doprava.</p>
-    <ul role="list" class="karty">
-      {% for s in data.sluzby %}<li class="karta" id="{{ s.id }}"><span class="cislo">{{ loop.index }}</span><h3>{{ s.nazev }}</h3><p>{{ s.popis }}</p></li>{% endfor %}
+    <ul role="list" class="radky">
+      {% for s in data.sluzby %}<li class="radek" id="{{ s.id }}"><h3>{{ s.nazev }}</h3><p>{{ s.popis }}</p></li>{% endfor %}
     </ul>
   </div>
 </section>
@@ -37,6 +46,7 @@
       <h2>Dopravná spoločnosť s dlhoročnými skúsenosťami</h2>
       <p>Sme dopravná spoločnosť s dlhoročným pôsobením a bohatými skúsenosťami v oblasti medzinárodnej nákladnej cestnej prepravy.</p>
       <p>Pri zabezpečení prepravných služieb spolupracujeme s úspešnou zahraničnou logistickou a špeditérskou spoločnosťou so sídlom v Luxembursku.</p>
+      <p class="rozsah">Mesačne vybavíme vyše 250 prepráv, najazdíme 150 000 km a prepravíme 6 000 t nákladu.</p>
     </div>
     <div>
       <h3>Dorozumieme sa v 5 jazykoch</h3>
@@ -45,7 +55,7 @@
   </div>
 </section>
 
-<section class="sekce tmava" id="vozovy-park">
+<section class="sekce" id="vozovy-park">
   <div class="wrap">
     <h2>Moderný vozový park</h2>
     <div class="dva vozidla-text">
@@ -57,64 +67,42 @@
       </ul>
     </div>
     <ul role="list" class="galeria">
-      <li>{{ img('P1010246.jpg', 'Biely ťahač Volvo s plachtovým návesom', sizes='(min-width: 52rem) 24rem, 50vw') }}</li>
-      <li>{{ img('1w6cue2l.jpg', 'Čierny ťahač Volvo s návesom v zime', sizes='(min-width: 52rem) 24rem, 50vw') }}</li>
-      <li>{{ img('878kt4x1.jpg', 'Modrý ťahač Volvo s plachtovým návesom', sizes='(min-width: 52rem) 24rem, 50vw') }}</li>
-      <li>{{ img('58jopeqa.jpg', 'Dva biele ťahače Volvo pred areálom', sizes='(min-width: 52rem) 24rem, 50vw') }}</li>
-      <li>{{ img('gkcw8q8o.jpg', 'Biely ťahač Volvo s návesom', sizes='(min-width: 52rem) 24rem, 50vw') }}</li>
-      <li>{{ img('42y6j055.jpg', 'Čierny ťahač Volvo s návesom pred servisom', sizes='(min-width: 52rem) 24rem, 50vw') }}</li>
+      <li>{{ img('P1010246.jpg', 'Biely ťahač Volvo s plachtovým návesom', sizes='(min-width: 52rem) 24rem, 100vw') }}</li>
+      <li>{{ img('1w6cue2l.jpg', 'Čierny ťahač Volvo s návesom v zime', sizes='(min-width: 52rem) 24rem, 100vw') }}</li>
+      <li>{{ img('878kt4x1.jpg', 'Modrý ťahač Volvo s plachtovým návesom', sizes='(min-width: 52rem) 24rem, 100vw') }}</li>
+      <li>{{ img('58jopeqa.jpg', 'Dva biele ťahače Volvo pred areálom', sizes='(min-width: 52rem) 24rem, 100vw') }}</li>
+      <li>{{ img('gkcw8q8o.jpg', 'Biely ťahač Volvo s návesom', sizes='(min-width: 52rem) 24rem, 100vw') }}</li>
+      <li>{{ img('42y6j055.jpg', 'Čierny ťahač Volvo s návesom pred servisom', sizes='(min-width: 52rem) 24rem, 100vw') }}</li>
     </ul>
   </div>
 </section>
 
-<section class="sekce" id="praca">
+<section class="praca" id="praca">
   <div class="wrap dva">
     <div>
       <h2>Hľadáte prácu vodiča?</h2>
       <p>Vodiči medzinárodnej kamiónovej dopravy sú u nás vítaní. Turnusy trvajú 4, prípadne 6 týždňov a potom nasledujú 2 týždne doma.</p>
     </div>
-    <p><a class="tlacitko druhe" href="https://www.ki-mex.sk/ponuka-prace/" rel="noopener">Dotazník pre uchádzača</a></p>
+    <p><a class="tlacitko" href="https://www.ki-mex.sk/ponuka-prace/" rel="noopener">Dotazník pre uchádzača</a></p>
   </div>
 </section>
 
-<section class="sekce svetla" id="kontakt">
-  <div class="wrap">
-    <h2>Kontakt</h2>
-    <div class="pobocky">
-      <article class="pobocka">
-        <h3>KI-MEX s.r.o.</h3>
-        <p>Sídlo: Markušovská cesta 4, 052 01 Spišská Nová Ves</p>
-        <p>Fakturačná adresa: Družstevná 577/67, 053 01 Harichovce</p>
-        <p>IČO: 46185992<br>DIČ: SK2023291039</p>
-      </article>
-      <article class="pobocka">
-        <h3>Igor Kurta, konateľ</h3>
-        <p><a href="tel:+421903624251">+421 903 624 251</a></p>
-        <p><a href="mailto:kurta@snv.sk">kurta@snv.sk</a></p>
-      </article>
-      <article class="pobocka">
-        <h3>Dispečing / logistika</h3>
-        <p>Zuzana Bányászová, Mgr. Lucia Pardubská</p>
-        <p><a href="tel:+421914328660">+421 914 328 660</a></p>
-        <p><a href="mailto:kimexsnv@gmail.com">kimexsnv@gmail.com</a></p>
-      </article>
-      <article class="pobocka">
-        <h3>Ekonómka</h3>
-        <p>Dana Zavacká</p>
-        <p><a href="tel:+421903226754">+421 903 226 754</a></p>
-        <p><a href="mailto:zavackadana@gmail.com">zavackadana@gmail.com</a></p>
-      </article>
-    </div>
-  </div>
-</section>
-
-<section class="sekce tmava" id="dopyt">
-  <div class="wrap dva">
+<section class="sekce" id="kontakt">
+  <div class="wrap dva kontakt-mriezka">
     <div>
+      <h2>Kontakt</h2>
+      <p class="firma-udaje"><strong>KI-MEX s.r.o.</strong><br>Sídlo: Markušovská cesta 4, 052 01 Spišská Nová Ves<br>Fakturačná adresa: Družstevná 577/67, 053 01 Harichovce<br>IČO: 46185992 · DIČ: SK2023291039</p>
+      <dl class="osoby">
+        <div><dt>Igor Kurta, konateľ</dt><dd><a href="tel:+421903624251">+421 903 624 251</a> · <a href="mailto:kurta@snv.sk">kurta@snv.sk</a></dd></div>
+        <div><dt>Dispečing / logistika<br><span>Zuzana Bányászová, Mgr. Lucia Pardubská</span></dt><dd><a href="tel:+421914328660">+421 914 328 660</a> · <a href="mailto:kimexsnv@gmail.com">kimexsnv@gmail.com</a></dd></div>
+        <div><dt>Ekonómka<br><span>Dana Zavacká</span></dt><dd><a href="tel:+421903226754">+421 903 226 754</a> · <a href="mailto:zavackadana@gmail.com">zavackadana@gmail.com</a></dd></div>
+      </dl>
+    </div>
+    <div id="dopyt" class="dopyt">
       <h2>Dopyt na prepravu</h2>
       <p>Napíšte nám, čo a odkiaľ kam treba previezť. Ozveme sa s ponukou.</p>
+      {% include "_formular.html" %}
     </div>
-    {% include "_formular.html" %}
   </div>
 </section>
 {% endblock %}

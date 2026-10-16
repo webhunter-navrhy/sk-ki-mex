@@ -1,0 +1,16 @@
+{
+  "znamka": 7,
+  "slabiny": [
+    "Trasa je jen v pruhu pod hero (PC snímek 1, mobil snímek 2), dál ji web nevede. Služby jsou tři textové řádky bez fotek a Vozový park ani Kontakt na trasu nijak nenavazují, takže koncept končí po první obrazovce. Oprava: tenkou červenou přerušovanou linku s body trasy vést po levém okraji přes sekce Čo prevážame → O nás → Vozový park → Kontakt (kontakt jako cílová zastávka „Spišská Nová Ves“). V Čo prevážame dát k Medzinárodnej preprave malou mapku trasy SNV → DE/FR/BE/CH/LU/NL a k Preprave nápojov fotku plachtového návěsu z galerie.",
+    "Sekce O nás na PC (snímky 2–3) je rozložená nevyváženě. Nadpis sedí až u spodního okraje obrazovky, text pokračuje na další v úzkém levém sloupci a pravá polovina béžového pruhu pod jazyky zůstává prázdná. Pod sekcí je pak ještě velká bílá mezera před Moderným vozovým parkom. Oprava: nadpis + text dát do levého sloupce a jazyky + citaci s 250 prepravami / 150 000 km do pravého, obojí zarovnat nahoru. Padding sekce zmenšit zhruba na polovinu, aby se O nás vešlo na jednu obrazovku.",
+    "Na mobilu (snímek 2) zabírá tmavý svislý seznam zastávek trasy (7 řádků) celou obrazovku hned po hero, takže opět vzniká celoobrazovkový tmavý pruh. Hero fotka nad nadpisem je přitom nízký pruh, který kamion ořízne. Oprava: zastávky na 390 px dát do kompaktního dvousloupcového nebo vodorovně posuvného řádku s výškou do 120 px. Hero fotku zvětšit zhruba na 55 % výšky obrazovky s ořezem na celý tahač."
+  ],
+  "silne": [
+    "Logo KI-MEX je vlevo v hlavičce a paleta červená/černá/bílá odpovídá brandu.",
+    "Barlow Condensed v nadpisech působí dopravácky a háčky (Ľ, Č, Š, Ť) se kreslí správně.",
+    "Číselný pruh i číslované karty zmizely. Čísla jsou jako citace v textu O nás a jazyky jako štítky.",
+    "Galerie je na PC 3×2 a na mobilu 2×3 s vlastními fotkami tahačů. Kontakt je jeden blok vedle formuláře, QA nehlásí přetečení."
+  ],
+  "verdikt": "Opraveno: pruh se statistikami, číslování služeb, systémové písmo, galerie, kontakt i hero na mobilu. Web je čistý a v brandu, ale nápad s trasou zůstal jen v pruhu pod hero a O nás na PC má prázdná místa. Opravit, ne předělat.",
+  "_hash": "16ec59c87b9a94537e72423e9c2aca1f6c66c6c1"
+}
